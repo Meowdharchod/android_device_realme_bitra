@@ -4,4 +4,12 @@
         <transport>hwbinder</transport>
         <fqname>@4.1::IKeymasterDevice/default</fqname>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.power</name>
+        <version>3</version>
+        <interface>
+            <name>IPower</name>
+            <instance>default</instance>
+        </interface>
+    </hal>  
 </manifest>
