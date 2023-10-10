@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from realme GT Neo2 5G (RMX3370_11.F.04).
+## from realme GT Neo2 5G (RMX3370_13.1.0.600(EX01)).
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -169,11 +169,6 @@ vendor/lib64/libqtikeymaster4.so
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.kona.so
-
-# NFC
-odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
-odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
 
 # Sensors
 odm/etc/sensor/config/kona_bu52053nvx_0.json
